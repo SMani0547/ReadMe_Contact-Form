@@ -358,7 +358,7 @@ git push origin feature/your-feature-name
 
 ## License
 
-This project is available under the MIT License. Add a `LICENSE` file before publishing the repository as open source.
+This project is available under the MIT License.
 
 ## Author
 
