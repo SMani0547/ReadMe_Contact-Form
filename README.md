@@ -1,4 +1,3 @@
-```
 <div align="center">
 
 <img
@@ -36,7 +35,12 @@ A polished contact form for developer portfolios, personal websites and small bu
 
 <img width="100%" src="./docs/screenshots/contact-form-preview.png" alt="Contact form preview" />
 
-<p><sub>Replace this placeholder with a screenshot saved at <code>docs/screenshots/contact-form-preview.png</code>.</sub></p>
+<p>
+  <sub>
+    Screenshot path:
+    <code>docs/screenshots/contact-form-preview.png</code>
+  </sub>
+</p>
 
 </div>
 
@@ -44,7 +48,7 @@ A polished contact form for developer portfolios, personal websites and small bu
 
 ## About the Project
 
-This project provides a ready-to-deploy contact page with a modern dark navy and blue design. Visitors can submit an enquiry from the browser, while the message is validated and sent securely from a server-side API route.
+This project provides a ready-to-deploy contact page with a clean white background, subtle blue grid, light-blue contact card and responsive layout. Visitors can submit an enquiry from the browser, while the message is validated and sent securely from a server-side API route.
 
 The form is suitable for:
 
@@ -57,7 +61,9 @@ The form is suitable for:
 ## Features
 
 - Responsive layout for desktop, tablet and mobile
-- Formal dark-blue interface with subtle animated effects
+- White background with subtle blue engineering-style grid
+- Light-blue contact form card with clear visual hierarchy
+- Brand-coloured GitHub, LinkedIn and email buttons
 - Name, email, subject, project type and message fields
 - Gmail SMTP delivery through Nodemailer
 - Server-side input validation and HTML escaping
@@ -186,11 +192,11 @@ GMAIL_APP_PASSWORD=abcdefghijklmnop
 CONTACT_TO=your-email@gmail.com
 ```
 
-| Variable               | Required | Description                                             |
-| ---------------------- | -------: | ------------------------------------------------------- |
-| `GMAIL_USER`         |      Yes | Gmail account used by Nodemailer                        |
-| `GMAIL_APP_PASSWORD` |      Yes | Google-generated App Password, not your normal password |
-| `CONTACT_TO`         |      Yes | Destination inbox for contact-form submissions          |
+| Variable | Required | Description |
+|---|---:|---|
+| `GMAIL_USER` | Yes | Gmail account used by Nodemailer |
+| `GMAIL_APP_PASSWORD` | Yes | Google-generated App Password, not your normal password |
+| `CONTACT_TO` | Yes | Destination inbox for contact-form submissions |
 
 > [!IMPORTANT]
 > Never commit `.env.local`, your Gmail password or your Gmail App Password to GitHub.
@@ -281,14 +287,16 @@ Edit:
 app/globals.css
 ```
 
-The default theme is based on:
+The current design uses:
 
 ```text
-Background: #020617
-Surface:    #07111F
-Primary:    #0EA5E9
-Accent:     #38BDF8
-Text:       #E2E8F0
+Page background:  #FFFFFF
+Grid lines:       #DBEAFE
+Form surface:     #EAF4FF
+Primary blue:     #0284C7
+Accent blue:      #38BDF8
+Heading text:     #0F172A
+Body text:        #475569
 ```
 
 ### Change the email template
@@ -370,22 +378,14 @@ Software Engineer from Fiji, focused on full-stack development, cloud integratio
   <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
-`<br><br>`
+<br><br>
 
 If this project is useful, consider giving the repository a star.
 
-`<img
+<img
   width="100%"
   src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:020617,50:1e3a8a,100:0ea5e9"
   alt="Footer"
-/>`
+/>
 
 </div>
-```
-
-
-```
-
-
-
-```
